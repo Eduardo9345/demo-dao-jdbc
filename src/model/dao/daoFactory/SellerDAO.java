@@ -1,4 +1,4 @@
-package db;
+package model.dao.daoFactory;
 
 import java.util.List;
 
