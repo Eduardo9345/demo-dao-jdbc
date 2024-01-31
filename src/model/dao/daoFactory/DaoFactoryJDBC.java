@@ -14,7 +14,7 @@ public class DaoFactoryJDBC implements DaoFactory{
 
 	@Override
 	public DepartmentDAO createDepartmentDAO() {
-		return new DepartmentDaoJDBC();
+		return new DepartmentDaoJDBC(DB.getConnection());
 	}
 
 }
