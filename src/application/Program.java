@@ -30,5 +30,13 @@ DaoFactory factoryDAO = new DaoFactoryJDBC();
 		for (Seller seller : listSl) {
 			System.out.println(seller);
 		}
+		
+		System.out.println("\n=====TESTE 3 - seller - findAll=====");
+		
+		listSl = sellerDao.findAll();
+		
+		for (Seller seller : listSl) {
+			System.out.println(seller);
+		}
 	}
 }
