@@ -39,9 +39,15 @@ public class Program {
 		
 		
 //		INSERT=============================================================================
-		System.out.println("\n=====TESTE 4 - seller - insert=====");
-		Seller s1 = new Seller(null, "Paulo", "paulo22@gmail.com", new Date(), 7600.00, new Department(4, null));
-		sellerDao.insert(s1);
-		System.out.println("Done!!!");
+//		System.out.println("\n=====TESTE 4 - seller - insert=====");
+//		Seller s1 = new Seller(null, "Paulo", "paulo22@gmail.com", new Date(), 7600.00, new Department(4, null));
+//		sellerDao.insert(s1);
+//		System.out.println("Done!!!");
+		
+//		UPDATE=============================================================================
+//		System.out.println("\n=====TESTE 5 - seller - update=====");
+//		Seller s2 = new Seller(11, "João Paulo", "paulo22@gmail.com", new Date(), 7600.00, new Department(4, null));
+//		sellerDao.update(s2);
+//		System.out.println("Done!!!");
 	}
 }
